@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+# Environment variables and secrets
+.env
+.env.*
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+
+# Local uploads and runtime data
+uploads/
+data/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+server.err.log
+server.out.log
+
+# Build and cache output
+dist/
+build/
+coverage/
+.cache/
+.parcel-cache/
+.vite/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
